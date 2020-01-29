@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-29T21:47:15.059</Modified>
+      <Modified>2020-01-29T23:11:45.607</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\bin\x86\Debug\Weather-Project.exe">
       <PackagePath>entrypoint\Weather-Project.exe</PackagePath>
-      <Modified>2020-01-29T21:47:13.257</Modified>
+      <Modified>2020-01-29T23:11:44.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -118,40 +118,6 @@
       <PackagePath>Assets\Weather\50n.png</PackagePath>
       <Modified>2020-01-29T21:42:24.483</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-01-02T08:34:52.199</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-02T08:34:52.199</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-02T08:34:52.199</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-02T08:34:52.199</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-02T08:34:52.199</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-02T08:34:52.199</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-02T08:34:52.199</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Weather\bg.gif">
       <PackagePath>Assets\Weather\bg.gif</PackagePath>
       <Modified>2020-01-29T21:42:24.495</Modified>
@@ -170,11 +136,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-01-29T21:47:13.071</Modified>
+      <Modified>2020-01-29T23:11:44.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-01-29T21:47:13.071</Modified>
+      <Modified>2020-01-29T23:11:44.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -182,11 +148,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-01-29T21:47:13.511</Modified>
+      <Modified>2020-01-29T23:11:44.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\bin\x86\Debug\Core\Weather-Project.exe">
       <PackagePath>Weather-Project.exe</PackagePath>
-      <Modified>2020-01-29T21:47:15.053</Modified>
+      <Modified>2020-01-29T23:11:45.581</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

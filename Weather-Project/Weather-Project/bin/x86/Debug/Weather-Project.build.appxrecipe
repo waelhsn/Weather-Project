@@ -88,33 +88,6 @@
     <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Weather\50n.png">
       <PackagePath>Assets\Weather\50n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\Assets\Weather\bg.gif">
       <PackagePath>Assets\Weather\bg.gif</PackagePath>
     </AppxPackagedFile>

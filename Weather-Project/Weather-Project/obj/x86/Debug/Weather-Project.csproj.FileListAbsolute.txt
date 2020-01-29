@@ -41,3 +41,4 @@ C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-
 C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+C:\Users\wael8\OneDrive\Dokument\GitHub\Weather-Project\Weather-Project\Weather-Project\obj\x86\Debug\Weather-Project.csprojAssemblyReference.cache

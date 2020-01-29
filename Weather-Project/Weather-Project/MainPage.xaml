@@ -9,32 +9,27 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        
-        
         <Image Stretch="UniformToFill" Source="Assets/Weather/bg.jpg"/>
         <Grid>
             <Grid>
-
                 <Grid.ColumnDefinitions>
-
                     <ColumnDefinition Width="3*" />
-
                     <ColumnDefinition Width="5*"/>
                 </Grid.ColumnDefinitions>
 
                 <Grid.RowDefinitions>
-
                     <RowDefinition Height="2*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-
                 <Border Background="Black" Opacity="0.7" />
                 <Border Grid.Column ="1" Background="Black" Opacity="0.7" />
                 <Border Grid.Row="1" Grid.ColumnSpan="2" Background="Black" Opacity="0.7" />
+              
                 <Grid>
                     <Image Margin="20" x:Name="ResultImage" Height="100" Opacity="1.0" Width="100" VerticalAlignment="Top"/>
                 </Grid>
+              
                 <StackPanel Grid.Column="1" Margin="40,0,0,0" VerticalAlignment="Top">
                     <TextBlock
                           x:Name="cityResult"
@@ -45,6 +40,7 @@
                           HorizontalAlignment="Left"
                           Opacity="0.5"
                         />
+                   
                     <TextBlock
                          x:Name="celsius"
                          Foreground="White"
@@ -54,6 +50,7 @@
                          HorizontalAlignment="Left"
                          Opacity="0.5"
                         />
+                    
                     <TextBlock
                         x:Name="textDescription"
                          Foreground="White"
@@ -63,6 +60,7 @@
                          HorizontalAlignment="Left"
                          Opacity="0.5"
                            />
+                    
                     <TextBlock
                         x:Name="TextFeelsLike"
                         Foreground="White"
@@ -71,7 +69,9 @@
                          Style="{StaticResource HeaderTextBlockStyle}"
                          HorizontalAlignment="Left"
                          Opacity="0.5" />
+                    
                 </StackPanel>
+                
                 <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal"
                                HorizontalAlignment="Center" VerticalAlignment="Center">
                     <TextBlock Foreground="White" FontSize="25" Style="{StaticResource HeaderTextBlockStyle}"
@@ -84,22 +84,6 @@
 
 
             </Grid>
-
-
-
         </Grid>
-
-
-
-
-
-
-
-
-
-
-
-
-
         </Grid>
 </Page>
