@@ -34,9 +34,6 @@ namespace WeatherProject
         [DataMember]
         public Wind wind { get; set; }
         [DataMember]
-        //public Clouds clouds { get; set; }
-        public int id { get; set; }
-        [DataMember]
         public string name { get; set; }
     }
     [DataContract]
