@@ -10,81 +10,95 @@
 
     <Grid>
         <Image Stretch="UniformToFill" Source="Assets/Weather/bg.jpg"/>
-        <Grid>
             <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="3*" />
-                    <ColumnDefinition Width="5*"/>
-                </Grid.ColumnDefinitions>
-
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="2*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-
-                <Border Background="Black" Opacity="0.7" />
-                <Border Grid.Column ="1" Background="Black" Opacity="0.7" />
-                <Border Grid.Row="1" Grid.ColumnSpan="2" Background="Black" Opacity="0.7" />
-              
                 <Grid>
-                    <Image x:ConnectionId='9' Margin="20" x:Name="ResultImage" Height="100" Opacity="1.0" Width="100" VerticalAlignment="Top"/>
-                </Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition Width="5*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Border Background="Black" Opacity="0.7" />
+                    <Border Grid.Column ="1" Background="Black" Opacity="0.7" />
+                    <Border Grid.Row="1" Grid.ColumnSpan="2" Background="Black" Opacity="0.7" />
               
-                <StackPanel Grid.Column="1" Margin="40,0,0,0" VerticalAlignment="Top">
-                    <TextBlock x:ConnectionId='5'
-                          x:Name="cityResult"
-                          Foreground="White"
-                          FontFamily="bold"
-                          FontSize="46"
-                          Style="{StaticResource HeaderTextBlockStyle}"
-                          HorizontalAlignment="Left"
-                          Opacity="0.5"
-                        />
+                    <Grid>
+                        <Image x:ConnectionId='9' Margin="20" x:Name="ResultImage" Height="100" Opacity="1.0" Width="100" VerticalAlignment="Top"/>
+                    </Grid>
+              
+                    <StackPanel Grid.Column="1" Margin="40,0,0,0" VerticalAlignment="Top">
+                        <TextBlock x:ConnectionId='5'
+                              x:Name="cityResult"
+                              Foreground="White"
+                              FontFamily="bold"
+                              FontSize="46"
+                              Style="{StaticResource HeaderTextBlockStyle}"
+                              HorizontalAlignment="Left"
+                              Opacity="0.5"
+                            />
                    
-                    <TextBlock x:ConnectionId='6'
-                         x:Name="celsius"
-                         Foreground="White"
-                         FontFamily="bold"
-                         FontSize="70"
-                         Style="{StaticResource HeaderTextBlockStyle}"
-                         HorizontalAlignment="Left"
-                         Opacity="0.5"
-                        />
+                        <TextBlock x:ConnectionId='6'
+                             x:Name="celsius"
+                             Foreground="White"
+                             FontFamily="bold"
+                             FontSize="70"
+                             Style="{StaticResource HeaderTextBlockStyle}"
+                             HorizontalAlignment="Left"
+                             Opacity="0.5"
+                            />
                     
-                    <TextBlock x:ConnectionId='7'
-                        x:Name="textDescription"
-                         Foreground="White"
-                         FontFamily="bold"
-                         FontSize="33"
-                         Style="{StaticResource HeaderTextBlockStyle}"
-                         HorizontalAlignment="Left"
-                         Opacity="0.5"
-                           />
+                        <TextBlock x:ConnectionId='7'
+                            x:Name="textDescription"
+                             Foreground="White"
+                             FontFamily="bold"
+                             FontSize="33"
+                             Style="{StaticResource HeaderTextBlockStyle}"
+                             HorizontalAlignment="Left"
+                             Opacity="0.5"
+                               />
                     
-                    <TextBlock x:ConnectionId='8'
-                        x:Name="TextFeelsLike"
-                        Foreground="White"
-                         FontFamily="bold"
-                         FontSize="33"
-                         Style="{StaticResource HeaderTextBlockStyle}"
-                         HorizontalAlignment="Left"
-                         Opacity="0.5" />
+                        <TextBlock x:ConnectionId='8'
+                            x:Name="TextFeelsLike"
+                            Foreground="White"
+                             FontFamily="bold"
+                             FontSize="33"
+                             Style="{StaticResource HeaderTextBlockStyle}"
+                             HorizontalAlignment="Left"
+                             Opacity="0.5" />
                     
-                </StackPanel>
+                    </StackPanel>
                 
-                <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal"
-                               HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <TextBlock x:ConnectionId='2' Foreground="White" FontSize="25" Style="{StaticResource HeaderTextBlockStyle}"
-                               x:Name="Max_Celsius" Opacity="0.5" Margin="0,0,20,0"/>
-                    <TextBlock x:ConnectionId='3' Foreground="White" FontSize="25" Style="{StaticResource HeaderTextBlockStyle}"
-                               x:Name="Min_Celsius" Opacity="0.5" Margin="0,0,20,0"/>
-                    <TextBlock x:ConnectionId='4' Foreground="White" FontSize="25" Style="{StaticResource HeaderTextBlockStyle}"
-                               x:Name="WindSpeedText" Opacity="0.5" Margin="0,0,20,0" />
-                </StackPanel>
-
-
+                    <StackPanel Grid.Row="1" Grid.ColumnSpan="2"
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center">
+                        
+                        <TextBlock x:ConnectionId='2' Foreground="White" FontSize="25"
+                                   Style="{StaticResource HeaderTextBlockStyle}"
+                                   x:Name="Max_Celsius" Opacity="0.5"
+                                   Margin="0,0,20,0"/>
+                        
+                        <TextBlock x:ConnectionId='3' Foreground="White"
+                                   FontSize="25"
+                                   Style="{StaticResource HeaderTextBlockStyle}"
+                                   x:Name="Min_Celsius"
+                                   Opacity="0.5"
+                                   Margin="0,0,20,0"/>
+                        
+                        <TextBlock x:ConnectionId='4' Foreground="White"
+                                   FontSize="25"
+                                   Style="{StaticResource HeaderTextBlockStyle}"
+                                   x:Name="WindSpeedText"
+                                   Opacity="0.5"
+                                   Margin="0,0,20,0" />
+                        
+                    </StackPanel>
+                </Grid>
             </Grid>
-        </Grid>
         </Grid>
 </Page>
 

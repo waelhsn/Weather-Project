@@ -37,12 +37,14 @@ namespace Weather_Project
             ShowWind();
             GetDescription();
         }
-
+        private async void CityName()
+        {
+            RootObject gotWeather = await GothenburgWeather.GetWeather();
+            cityResult.Text = gotWeather.name;
+        }
         private async void DegreeGetter()
         {
-            RootObject gotWeather =
-                await GothenburgWeather.GetWeather();
-
+            RootObject gotWeather = await GothenburgWeather.GetWeather();
             string icon = String.Format("ms-appx:///Assets/Weather/{0}.png", gotWeather.weather[0].icon);
             ResultImage.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(icon, UriKind.Absolute));
             celsius.Text = ((int)gotWeather.main.temp).ToString() + "°";
@@ -50,13 +52,14 @@ namespace Weather_Project
         private async void GetDescription()
         {
             RootObject gotWeather = await GothenburgWeather.GetWeather();
-            textDescription.Text = gotWeather.weather[0].description[0].ToString().ToUpper()
-          + gotWeather.weather[0].description.Substring(1);
+            textDescription.Text = gotWeather.weather[0].description[0].ToString().ToUpper() +
+              gotWeather.weather[0].description.Substring(1);
         }
-        private async void CityName()
+        private async void FeelsLike()
         {
-            RootObject gotWeather = await GothenburgWeather.GetWeather();
-            cityResult.Text = gotWeather.name;
+            RootObject gotWeather =
+                await GothenburgWeather.GetWeather();
+            TextFeelsLike.Text = "Känns: " + ((int)gotWeather.main.feels_like).ToString() + "°";
         }
         private async void MaxCelsius()
         {
@@ -72,12 +75,6 @@ namespace Weather_Project
         {
             RootObject gotWeather = await GothenburgWeather.GetWeather();
             WindSpeedText.Text = "Vind: " + ((int)gotWeather.wind.speed).ToString() + " m/s";
-        }
-        private async void FeelsLike()
-        {
-            RootObject gotWeather =
-                await GothenburgWeather.GetWeather();
-            TextFeelsLike.Text = "Känns: " + ((int)gotWeather.main.feels_like).ToString() + "°";
         }
     }
 
