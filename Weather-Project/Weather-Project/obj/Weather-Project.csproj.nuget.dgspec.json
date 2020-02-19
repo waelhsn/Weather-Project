@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wael8\\OneDrive\\Dokument\\GitHub\\Weather-Project\\Weather-Project\\Weather-Project\\Weather-Project.csproj": {}
+    "C:\\Users\\WAEHAS\\Documents\\Git\\Weather-Project\\Weather-Project\\Weather-Project\\Weather-Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wael8\\OneDrive\\Dokument\\GitHub\\Weather-Project\\Weather-Project\\Weather-Project\\Weather-Project.csproj": {
+    "C:\\Users\\WAEHAS\\Documents\\Git\\Weather-Project\\Weather-Project\\Weather-Project\\Weather-Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wael8\\OneDrive\\Dokument\\GitHub\\Weather-Project\\Weather-Project\\Weather-Project\\Weather-Project.csproj",
+        "projectUniqueName": "C:\\Users\\WAEHAS\\Documents\\Git\\Weather-Project\\Weather-Project\\Weather-Project\\Weather-Project.csproj",
         "projectName": "Weather-Project",
-        "projectPath": "C:\\Users\\wael8\\OneDrive\\Dokument\\GitHub\\Weather-Project\\Weather-Project\\Weather-Project\\Weather-Project.csproj",
-        "packagesPath": "C:\\Users\\wael8\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wael8\\OneDrive\\Dokument\\GitHub\\Weather-Project\\Weather-Project\\Weather-Project\\obj\\",
+        "projectPath": "C:\\Users\\WAEHAS\\Documents\\Git\\Weather-Project\\Weather-Project\\Weather-Project\\Weather-Project.csproj",
+        "packagesPath": "C:\\Users\\WAEHAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WAEHAS\\Documents\\Git\\Weather-Project\\Weather-Project\\Weather-Project\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,25 +19,25 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\wael8\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WAEHAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "uap10.0.17763"
+          "uap10.0.18362"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "uap10.0.17763": {
+          "uap10.0.18362": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "uap10.0.17763": {
+        "uap10.0.18362": {
           "dependencies": {
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
